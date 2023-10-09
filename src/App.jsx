@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="md:flex gap-5 max-w-7xl mx-auto">
+      <div className="md:flex gap-5 max-w-7xl mx-auto mt-8">
         <Blogs
           handleBookmarks={handleBookmarks}
           handleReadingTime={handleReadingTime}

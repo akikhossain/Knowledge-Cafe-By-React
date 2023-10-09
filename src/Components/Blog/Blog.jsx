@@ -36,7 +36,7 @@ const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
       <h2 className="text-4xl font-bold mb-4">{title}</h2>
       {hashtags.map((hash, idx) => (
         <span key={idx}>
-          <a href="">#{hash}</a>
+          <a href="">#{hash} </a>
         </span>
       ))}{" "}
       <br />
